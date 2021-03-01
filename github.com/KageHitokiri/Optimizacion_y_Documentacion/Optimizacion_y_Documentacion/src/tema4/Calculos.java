@@ -1,7 +1,16 @@
 package tema4;
-
+/**
+ * Clase que permite realizar el cribado de números primos mediante el cribado de erastótenes
+ * @author Carlos
+ * @version 1.0
+ */
 public class Calculos {
 	
+	/**
+	 * Genera la criba de Erastótenes hasta @max.
+	 * @param max Valor numérico máximo hasta el que llegará la criba.
+	 * @return Array numérico con todos los números primos entre 2 y max
+	 */
 	public static int[] generarPrimos (int max) {
 		int primeCounter = 0;
 		
