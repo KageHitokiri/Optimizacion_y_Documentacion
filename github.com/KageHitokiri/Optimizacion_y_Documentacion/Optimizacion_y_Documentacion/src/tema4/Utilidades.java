@@ -32,7 +32,7 @@ public class Utilidades {
 	
 	/**
 	 * Imprime los valores de un array
-	 * @param matrix El método solicita un array de números primos
+	 * @param primeNumber El método solicita un array de números primos
 	 */
 	
 	public static void primePrinter (int [] primeNumber) {
